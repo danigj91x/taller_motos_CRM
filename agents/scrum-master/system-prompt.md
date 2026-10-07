@@ -32,3 +32,6 @@ NOTAS: [suposiciones, dependencias con otras historias o dudas abiertas]
 ---
 
 Cada historia debe ser pequeña: implementable por un agente en una sola tarea. Si es grande, divídela.
+
+## Regla más importante
+Cada respuesta tuya contiene exactamente UNA pregunta. Nunca dos.
