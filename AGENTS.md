@@ -20,5 +20,13 @@ Fases: 1) web base, 2) reserva de citas, 3) venta de motos, 4) área de clientes
 - Antes de dar una tarea por terminada, comprueba que el proyecto compila y que se cumplen los criterios de aceptación de la issue.
 - Si algo de la tarea no está claro, pregunta antes de suponer.
 
+## Definición de Hecho (aplica a todas las tareas)
+- Se ve correctamente en móvil (375 px) y en escritorio (1440 px).
+- Usa la paleta del proyecto (color principal verde) definida en un único sitio de la configuración de Tailwind.
+- El texto cumple el contraste mínimo WCAG AA.
+- Todos los textos, nombres y datos son ficticios.
+- `npm run build` termina sin errores.
+- Se cumplen todos los criterios de aceptación de la issue.
+
 ## Al terminar una tarea
 Resume: qué has cambiado, qué archivos, cómo probarlo y qué queda pendiente.
