@@ -1,0 +1,23 @@
+# Dependencias
+node_modules
+npm-debug.log*
+
+# Build de Next.js
+.next
+out
+
+# Pruebas / cobertura
+coverage
+
+# Sistema y editor
+.DS_Store
+*.pem
+
+# Sin variables de entorno ni archivos de claves en la imagen
+.env
+.env.*
+!.env.example
+
+# Repositorio
+.git
+.gitignore
