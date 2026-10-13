@@ -32,7 +32,7 @@ export default function Portada() {
         <div className="mt-8">
           <a
             href="#contacto"
-            className="inline-flex items-center rounded-full bg-primary-600 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-primary-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            className="inline-flex items-center rounded-full bg-primary-700 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-primary-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             {sitio.botonContactar}
           </a>
