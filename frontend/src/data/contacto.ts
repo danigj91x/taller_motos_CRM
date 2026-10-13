@@ -4,6 +4,6 @@
  * guiones, para poder construir el enlace https://wa.me/<numero>.
  */
 export const contacto = {
-  whatsAppNumero: "34600123456",
+  whatsAppNumero: "34000000000",
   whatsAppMensaje: "Hola MotoTaller Demo, me gustaría consultar sobre el taller.",
 };
