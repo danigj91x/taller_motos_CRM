@@ -120,6 +120,8 @@ Abrir `http://localhost:3000` y comprobar cada criterio de la issue. Para la #2:
 | Menú de móvil que se cierra al pulsar un enlace | F12 → Ctrl + Shift + M → iPhone → abrir el menú y pulsar un enlace |
 | WhatsApp abre wa.me con el número de datos | Pasar el ratón por el botón y mirar la URL abajo a la izquierda |
 
+**Accesibilidad:** pasar Lighthouse (F12 → Lighthouse → Accesibilidad) en escritorio y en móvil. Cero fallos de contraste. Pi no tiene navegador: cualquier afirmación suya sobre contraste es una suposición.
+
 Y la **Definición de Hecho** de `AGENTS.md`: móvil y escritorio, paleta verde, contraste, datos ficticios y `npm run build` sin errores.
 
 **Por qué:** los criterios de aceptación son el contrato. Si se cumplen todos, la issue está hecha. Si no, no lo está, aunque "parezca que funciona".
