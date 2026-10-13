@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Marcador provisional: trabajo 1, foto 2">
+  <defs>
+    <linearGradient id="grad12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#052e16"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad12)"/>
+  <!-- rueda de moto decorativa -->
+  <circle cx="400" cy="300" r="120" fill="none" stroke="#86efac" stroke-opacity="0.5" stroke-width="14"/>
+  <circle cx="400" cy="300" r="78" fill="none" stroke="#bbf7d0" stroke-opacity="0.35" stroke-width="8"/>
+  <g stroke="#dcfce7" stroke-opacity="0.4" stroke-width="8">
+    <line x1="400" y1="180" x2="400" y2="420"/>
+    <line x1="280" y1="300" x2="520" y2="300"/>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="#ffffff" fill-opacity="0.9">Trabajo 1 · Foto 2</text>
+  <text x="400" y="545" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#bbf7d0" fill-opacity="0.7">Marcador provisional · sustituir por foto real</text>
+</svg>
