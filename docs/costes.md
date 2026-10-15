@@ -9,7 +9,7 @@ Fuente oficial: OpenRouter → Actividad. El dato de Pi es orientativo.
 | 2026-10-09 | Prueba de solo lectura | DeepSeek V4 Flash | — | — | — | (completar) | Primera prueba del agente |
 | 2026-10-13 | Issue #1: montar proyecto | DeepSeek V4 Flash | 28k | 17k | 99,0 % | 0,021 | Next.js, Dockerfile multi-etapa, compose |
 | 2026-10-13 | Issue #2: cabecera | DeepSeek V4 Flash | 13k | 7,1k | 97,5 % | 0,006 | Sin contar la corrección del número |
-| 2026-10-13 | Issue #2: corrección | DeepSeek V4 Flash | — | — | — | (completar) | Número de WhatsApp no asignable |
+| 2026-10-13 | Issue #2: corrección | DeepSeek V4 Flash | — | — | — | — | Número de WhatsApp no asignable |
 | 2026-10-13 | Issue #13: corrección | DeepSeek V4 Flash | — | — | — | 0,006 | Contraste insuficiente en el logo WhatsApp |
 | 2026-10-13 | Issue #16: corrección | DeepSeek V4 Flash | — | — | — | 0,006 | Contraste insuficiente en el boton contactar |
 | 2026-10-13 | Issue #4: Sobre nosotros | DeepSeek V4 Flash | — | — | — | 0,007 | Sección sobre nosotros |
