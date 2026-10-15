@@ -59,10 +59,10 @@ export default function Header() {
         {/* Navegación de escritorio */}
         <nav className="hidden md:block" aria-label="Principal">
           <ul className="flex items-center gap-6">
-            {enlacesMenu.map(({ id, texto }) => (
+            {enlacesMenu.map(({ id, texto, href }) => (
               <li key={id}>
                 <a
-                  href={`/#${id}`}
+                  href={href ?? `/#${id}`}
                   className="text-sm font-medium text-zinc-700 transition-colors hover:text-primary-600 dark:text-zinc-200 dark:hover:text-primary-400"
                 >
                   {texto}
@@ -116,10 +116,10 @@ export default function Header() {
       >
         <div className="min-h-0">
           <ul className="flex flex-col divide-y divide-zinc-100 px-4 dark:divide-zinc-800">
-            {enlacesMenu.map(({ id, texto }) => (
+            {enlacesMenu.map(({ id, texto, href }) => (
               <li key={id}>
                 <a
-                  href={`/#${id}`}
+                  href={href ?? `/#${id}`}
                   onClick={cerrar}
                   className="block py-3 text-sm font-medium text-zinc-700 hover:text-primary-600 dark:text-zinc-200 dark:hover:text-primary-400"
                 >
