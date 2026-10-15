@@ -2,13 +2,15 @@ import Portada from "@/components/Portada";
 import Servicios from "@/components/Servicios";
 import SobreNosotros from "@/components/SobreNosotros";
 import Trabajos from "@/components/Trabajos";
+import Opiniones from "@/components/Opiniones";
 import { enlacesMenu } from "@/data/menu";
 
 /**
  * Secciones de la página de inicio.
  * La portada se renderiza por separado (sección "inicio") y la sección
  * "sobre-nosotros", "servicios" y "trabajos" ya tienen contenido propio
- * (SobreNosotros, Servicios y Trabajos). El resto quedan como espacios
+ * (SobreNosotros, Servicios y Trabajos) y la sección "opiniones" (Opiniones).
+ * El resto quedan como espacios
  * reservados con su `id` (que coincide con los enlaces del menú) y su contenido
  * se rellenará en issues posteriores.
  * `scroll-mt` compensa la cabecera fija para que el ancla no quede oculta.
@@ -19,7 +21,8 @@ export default function Secciones() {
       id !== "inicio" &&
       id !== "sobre-nosotros" &&
       id !== "servicios" &&
-      id !== "trabajos",
+      id !== "trabajos" &&
+      id !== "opiniones",
   );
 
   return (
@@ -28,6 +31,7 @@ export default function Secciones() {
       <SobreNosotros />
       <Servicios />
       <Trabajos />
+      <Opiniones />
       {seccionesVacias.map(({ id, texto }) => (
         <section
           key={id}
