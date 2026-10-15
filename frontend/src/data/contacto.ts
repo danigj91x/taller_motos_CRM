@@ -15,4 +15,11 @@ export const contacto = {
     { dia: "Sábados", horas: "de 9:30 a 13:30" },
     { dia: "Domingos y festivos", horas: "cerrado" },
   ],
+  /**
+   * URL de inserción del mapa de Google (sin clave de API), centrado en una
+   * ubicación genérica. Acepta `&q=...` para centrar en una dirección concreta.
+   * Se sustituirá por la ubicación real del taller más adelante.
+   */
+  mapaUrl:
+    "https://www.google.com/maps?q=Calle+Ejemplo,123,00000&output=embed",
 };
