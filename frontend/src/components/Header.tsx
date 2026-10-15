@@ -49,7 +49,7 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
         {/* Logo: solo texto con el nombre ficticio */}
         <a
-          href="#inicio"
+          href="/#inicio"
           onClick={cerrar}
           className="text-lg font-bold tracking-tight text-primary-700 dark:text-primary-400"
         >
@@ -62,7 +62,7 @@ export default function Header() {
             {enlacesMenu.map(({ id, texto }) => (
               <li key={id}>
                 <a
-                  href={`#${id}`}
+                  href={`/#${id}`}
                   className="text-sm font-medium text-zinc-700 transition-colors hover:text-primary-600 dark:text-zinc-200 dark:hover:text-primary-400"
                 >
                   {texto}
@@ -119,7 +119,7 @@ export default function Header() {
             {enlacesMenu.map(({ id, texto }) => (
               <li key={id}>
                 <a
-                  href={`#${id}`}
+                  href={`/#${id}`}
                   onClick={cerrar}
                   className="block py-3 text-sm font-medium text-zinc-700 hover:text-primary-600 dark:text-zinc-200 dark:hover:text-primary-400"
                 >
