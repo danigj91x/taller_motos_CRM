@@ -168,7 +168,7 @@ git pull
 
 - Comprobar que la issue aparece **CLOSED** (`gh issue view 2`) y que el milestone ha avanzado.
 - Mover la tarjeta a **Hecho** si no se ha movido sola.
-- Anotar el coste de la sesión en `docs/costes.md` (aparece abajo en Pi; el dato oficial está en OpenRouter → Actividad).
+- Anotar el coste de la sesión en la tabla de costes de la retrospectiva del sprint en curso
 - Si ha surgido un problema nuevo, documentarlo en `docs/incidencias/`, **en `main`**, nunca en la rama de la issue.
 - Parar el contenedor si no se va a usar: `docker compose down`.
 
