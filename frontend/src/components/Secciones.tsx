@@ -3,13 +3,15 @@ import Servicios from "@/components/Servicios";
 import SobreNosotros from "@/components/SobreNosotros";
 import Trabajos from "@/components/Trabajos";
 import Opiniones from "@/components/Opiniones";
+import Contacto from "@/components/Contacto";
 import { enlacesMenu } from "@/data/menu";
 
 /**
  * Secciones de la página de inicio.
  * La portada se renderiza por separado (sección "inicio") y la sección
  * "sobre-nosotros", "servicios" y "trabajos" ya tienen contenido propio
- * (SobreNosotros, Servicios y Trabajos) y la sección "opiniones" (Opiniones).
+ * (SobreNosotros, Servicios y Trabajos), la sección "opiniones" (Opiniones)
+ * y la sección "contacto" (Contacto).
  * El resto quedan como espacios
  * reservados con su `id` (que coincide con los enlaces del menú) y su contenido
  * se rellenará en issues posteriores.
@@ -22,7 +24,8 @@ export default function Secciones() {
       id !== "sobre-nosotros" &&
       id !== "servicios" &&
       id !== "trabajos" &&
-      id !== "opiniones",
+      id !== "opiniones" &&
+      id !== "contacto",
   );
 
   return (
@@ -32,6 +35,7 @@ export default function Secciones() {
       <Servicios />
       <Trabajos />
       <Opiniones />
+      <Contacto />
       {seccionesVacias.map(({ id, texto }) => (
         <section
           key={id}
