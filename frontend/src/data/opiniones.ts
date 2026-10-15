@@ -15,8 +15,8 @@ export interface Testimonio {
 }
 
 export const opiniones = {
-  valoracionMedia: 4.8,
-  totalOpiniones: 127,
+  valoracionMedia: 4.5,
+  totalOpiniones: 85,
   testimonios: [
     {
       id: "marta-herrera",
