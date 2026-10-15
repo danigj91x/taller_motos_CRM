@@ -4,6 +4,8 @@ import "./globals.css";
 
 import { ConsentimientoCookiesProvider } from "@/components/cookies/ConsentimientoCookies";
 import BannerCookies from "@/components/cookies/BannerCookies";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +31,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col">
         <ConsentimientoCookiesProvider>
+          <Header />
           {children}
+          <Footer />
           <BannerCookies />
         </ConsentimientoCookiesProvider>
       </body>
