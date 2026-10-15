@@ -57,6 +57,5 @@ En el tercer intento se usó `getpass`, que pide la contraseña sin mostrarla en
 - **Credenciales en un gestor de contraseñas** desde el momento de crearlas.
 - **La configuración importante, en Git**, no solo dentro de la aplicación. Por eso reinstalar costó minutos y no horas.
 - **Quien accede al host y a los volúmenes de Docker controla la aplicación**, aunque no conozca su contraseña. El acceso al servidor es la frontera de seguridad real.
-- **Las contraseñas y los hashes no se muestran en capturas ni se pegan en chats.**
 - **Los procedimientos de recuperación dependen de la versión.** Antes de aplicarlos, comprobar que corresponden a la versión instalada.
 - **Pendiente:** automatizar la reconfiguración de Open WebUI para que la reinstalación sea reproducible.
