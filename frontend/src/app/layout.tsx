@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import { ConsentimientoCookiesProvider } from "@/components/cookies/ConsentimientoCookies";
+import BannerCookies from "@/components/cookies/BannerCookies";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,7 +27,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        <ConsentimientoCookiesProvider>
+          {children}
+          <BannerCookies />
+        </ConsentimientoCookiesProvider>
+      </body>
     </html>
   );
 }

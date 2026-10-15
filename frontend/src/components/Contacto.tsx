@@ -1,9 +1,11 @@
 "use client";
 
-import { Clock, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Clock, Cookie, MapPin, MessageCircle, Phone } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
 import { contacto } from "@/data/contacto";
+import { useConsentimientoCookies } from "@/components/cookies/ConsentimientoCookies";
+import MapaContacto from "@/components/cookies/MapaContacto";
 
 /** Estado de los errores de validación del formulario. */
 interface Errores {
@@ -30,6 +32,10 @@ export default function Contacto() {
   });
   const [errores, setErrores] = useState<Errores>({});
   const [enviado, setEnviado] = useState(false);
+
+  // Mecanismo reutilizable para cambiar la decisión de cookies. La issue #10 lo
+  // moverá al pie de página: aquí se muestra un botón "Configurar cookies".
+  const { abrirBanner } = useConsentimientoCookies();
 
   const urlWhatsApp = `https://wa.me/${contacto.whatsAppNumero}?text=${encodeURIComponent(
     contacto.whatsAppMensaje,
@@ -152,6 +158,23 @@ export default function Contacto() {
                 </dl>
               </li>
             </ul>
+
+            {/* Mapa de Google, sujeto a consentimiento de cookies. */}
+            <div className="pt-2">
+              <MapaContacto />
+            </div>
+
+            <button
+              type="button"
+              onClick={abrirBanner}
+              className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-300 bg-white px-4 py-2.5 text-sm font-semibold text-zinc-800 transition-colors hover:bg-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-700 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800 sm:w-auto"
+            >
+              <Cookie
+                aria-hidden="true"
+                className="h-4 w-4 text-primary-700 dark:text-primary-400"
+              />
+              Configurar cookies
+            </button>
           </div>
 
           {/* Formulario de contacto */}
