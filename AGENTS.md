@@ -28,6 +28,7 @@ Fases: 1) web base, 2) reserva de citas, 3) venta de motos, 4) área de clientes
 - `npm run build` termina sin errores.
 - Se cumplen todos los criterios de aceptación de la issue.
 - Botones y fondos con texto blanco: usar primary-700 o más oscuro (primary-600 con blanco no alcanza 4,5:1).
+- `docs/` contiene información del negocio real. No la uses como fuente de datos para la web: todos los datos de la demo deben ser inventados.
 
 ## Al terminar una tarea
 Resume: qué has cambiado, qué archivos, cómo probarlo y qué queda pendiente.
