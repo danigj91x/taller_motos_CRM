@@ -117,14 +117,6 @@ fallo que queda.
 
 ---
 
-## Capturas
-
-<!-- SUSTITUIR: guarda las imagenes en docs/capturas/ y descomenta este bloque.
-     Chrome: F12 > icono movil > Responsive 1440 o iPhone SE 375;
-     Ctrl+Shift+P > "Capture full size screenshot".
-     Lighthouse esta en su propia pestana dentro de F12.
-     Que en las capturas solo salga el taller ficticio.
-
 ### La web
 
 | Escritorio (1440 px) | Movil (375 px) |
@@ -138,7 +130,7 @@ fallo que queda.
 ### El agente Scrum levantando requisitos
 
 ![Agente Scrum en Open WebUI](docs/capturas/scrum.jpg)
--->
+
 
 ---
 
