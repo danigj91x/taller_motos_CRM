@@ -59,6 +59,10 @@ export const motos: Moto[] = [
         src: "/motos/nebula-300/foto-2.svg",
         alt: "Marcador provisional de la Nebula 300, vista frontal",
       },
+      {
+        src: "/motos/nebula-300/foto-3.svg",
+        alt: "Marcador provisional de la Nebula 300, detalle de la instrumentación",
+      },
     ],
     especificaciones: [
       { nombre: "Cilindrada", valor: "300 cc" },
@@ -87,6 +91,10 @@ export const motos: Moto[] = [
       {
         src: "/motos/torrente-650/foto-2.svg",
         alt: "Marcador provisional de la Torrente 650, vista frontal",
+      },
+      {
+        src: "/motos/torrente-650/foto-3.svg",
+        alt: "Marcador provisional de la Torrente 650, detalle de las maletas",
       },
     ],
     especificaciones: [
@@ -117,6 +125,10 @@ export const motos: Moto[] = [
         src: "/motos/brisa-125/foto-2.svg",
         alt: "Marcador provisional de la Brisa 125, vista frontal",
       },
+      {
+        src: "/motos/brisa-125/foto-3.svg",
+        alt: "Marcador provisional de la Brisa 125, detalle del maletero",
+      },
     ],
     especificaciones: [
       { nombre: "Cilindrada", valor: "125 cc" },
@@ -145,6 +157,10 @@ export const motos: Moto[] = [
       {
         src: "/motos/cumbre-1000/foto-2.svg",
         alt: "Marcador provisional de la Cumbre 1000, vista frontal",
+      },
+      {
+        src: "/motos/cumbre-1000/foto-3.svg",
+        alt: "Marcador provisional de la Cumbre 1000, detalle de las maletas",
       },
     ],
     especificaciones: [
