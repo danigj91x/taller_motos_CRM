@@ -119,13 +119,25 @@ fallo que queda.
 
 ## Capturas
 
-<!-- SUSTITUIR: haz 2 o 3 capturas de la web a 1440 px y una a 375 px,
-     guárdalas en docs/capturas/ y enlázalas aquí. Es lo que más convence
-     a quien abre el repo en treinta segundos.
+<!-- SUSTITUIR: guarda las imagenes en docs/capturas/ y descomenta este bloque.
+     Chrome: F12 > icono movil > Responsive 1440 o iPhone SE 375;
+     Ctrl+Shift+P > "Capture full size screenshot".
+     Lighthouse esta en su propia pestana dentro de F12.
+     Que en las capturas solo salga el taller ficticio.
 
-![Portada](docs/capturas/portada.png)
-![Catálogo de motos](docs/capturas/catalogo.png)
-![Vista móvil](docs/capturas/movil.png)
+### La web
+
+| Escritorio (1440 px) | Movil (375 px) |
+|---|---|
+| ![Portada en escritorio](docs/capturas/portada.jpg) | ![Portada en movil](docs/capturas/portada_movil.jpg) |
+
+### Accesibilidad
+
+![Informe de Lighthouse](docs/capturas/lighthouse.jpg)
+
+### El agente Scrum levantando requisitos
+
+![Agente Scrum en Open WebUI](docs/capturas/scrum.jpg)
 -->
 
 ---
